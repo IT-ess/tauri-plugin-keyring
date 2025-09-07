@@ -99,7 +99,7 @@ import {
   getSecret,
   deleteSecret,
   hasSecret
-} from 'tauri-plugin-keyring-api'
+} from 'tauri-plugin-keyring'
 
 // Initialize the keyring with your service name
 await initializeKeyring('com.example.myapp')

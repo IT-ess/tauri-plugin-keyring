@@ -1,0 +1,5 @@
+{
+  "android": {
+    "kotlin": "com.alaydriem.bvc.plugin.keyring.KeyringPlugin"
+  }
+}

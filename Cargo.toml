@@ -25,7 +25,7 @@ apple-native-keyring-store = "0.1.0"
 windows-native-keyring-store = "0.1.0"
 
 [target."cfg(any(target_os = \"android\"))".dependencies]
-android-native-keyring-store = "0.4.0"
+android-native-keyring-store = "0.3.0"
 
 [target."cfg(any(target_os = \"linux\"))".dependencies]
 linux-keyutils-keyring-store = "0.1.0"

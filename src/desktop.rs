@@ -32,7 +32,7 @@ pub fn init<R: Runtime, C: DeserializeOwned>(
 
     #[cfg(target_os = "linux")]
     {
-        use zbus_secret_service_keyring_store::Store as LinuxStore;
+        use linux_keyutils_keyring_store::Store as LinuxStore;
         let store = LinuxStore::new().map_err(|e| crate::Error::PlatformError(e.to_string()))?;
         keyring_core::set_default_store(store);
     }
